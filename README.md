@@ -1,7 +1,7 @@
 # Application Load Balancer Project
 
 ##  Introduction
-This project demonstrates how to deploy an **Application Load Balancer (ALB)** in AWS by launching six EC2 instances and creating three target groups. The instances represent **Home**, **Laptop**, and **Mobile** servers. The ALB is configured to distribute traffic across these targets. Finally, the DNS name of the load balancer is tested to verify traffic distribution.
+This project demonstrates how to deploy an **Application Load Balancer (ALB)** in AWS by launching six EC2 instances and creating three target groups. The instances represent **Home**, **Laptop**, and **Mobile** servers. The ALB is configured to distribute traffic across these targets. Finally, the Endpoint of the load balancer is tested to verify traffic distribution.
 
 ---
 
