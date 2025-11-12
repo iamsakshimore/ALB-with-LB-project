@@ -128,6 +128,6 @@ echo "<h1>This is mobile page $(hostname -f)</h1>" > /var/www/html/mobile/index.
 ![alt text](image/mobile-page2.png)
 
 ## Summary
- deployed an Application Load Balancer (ALB) to efficiently distribute incoming traffic across six EC2 instances. Each instance was configured to serve a unique webpage using Apache, with setup automated through User Data scripts. To manage routing, she created and registered three distinct target groups, ensuring organized traffic flow. The ALB listener was configured to forward requests to these target groups based on defined rules. After deployment, she verified successful load balancing by accessing the ALB’s DNS name, confirming that traffic was being evenly distributed and each instance responded as expected.
+ deployed an Application Load Balancer (ALB) to efficiently distribute incoming traffic across six EC2 instances. Each instance was configured to serve a unique webpage using Apache, with setup automated through User Data scripts. To manage routing, created and registered three distinct target groups, ensuring organized traffic flow. The ALB listener was configured to forward requests to these target groups based on defined rules. After deployment, verified successful load balancing by accessing the ALB’s Endpoints, confirming that traffic was being evenly distributed and each instance responded as expected.
 
 
